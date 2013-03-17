@@ -11,8 +11,8 @@ public:
     ~Video();
     SDL_Surface* loadImg(std::string filename);
     static void onScreen(SDL_Surface* imageToShow);
+    static SDL_Surface* screen;
 };
 
-static SDL_Surface* screen;
 
 #endif //__VIDEO_H__
