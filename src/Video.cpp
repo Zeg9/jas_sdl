@@ -6,7 +6,6 @@
 Video::Video()
 {
     SDL_Init(SDL_INIT_EVERYTHING);
-    SDL_Surface *screen;
     screen = SDL_SetVideoMode(640, 480, 32, SDL_SWSURFACE);                      
 }
 
